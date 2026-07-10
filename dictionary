@@ -1,0 +1,20 @@
+info = {
+"Name":"Yaman",
+"Age": 18,
+"Country":"Jordan"
+
+
+
+}
+print(info["Name"])
+
+
+info = {
+"Name":"Yaman",
+"Age": 18,
+"Country":"Jordan"
+
+
+
+}
+print(info.get("Name"))
