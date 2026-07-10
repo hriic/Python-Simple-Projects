@@ -1,0 +1,31 @@
+#######################
+# Set Methods 
+#______________________
+# union()
+# add()
+# remove()
+# discard()
+# clear()
+#######################
+a = {1,2,3}
+b = {4,5,6}
+print(a|b) #or print(a.union(b))
+
+a = {1,2,3}
+a.add(4)
+# and if you want to add another value:
+a.add(5)
+a.add(6)
+print(a)
+
+a = {1,2,3}
+a.remove(2) #also u can remove a string dont worry!!
+print(a)
+
+a = {1,2,3}
+a.discard(15) #it will run normally even if the value doesnt exist
+print(a)
+
+a = {1,2,3}
+a.clear() #this method clear the whole set
+print(a)
