@@ -1,0 +1,10 @@
+tuples = (1,2,3)
+print(tuples)
+# this is a tuple in Python. Tuples are ordered collections of elements that can hold different data types. They are defined using parentheses () and can contain any number of elements.
+
+
+tuples = (1,2,3)
+tuples[0] = 5
+print(tuples)
+# here you cant change the value of a tuple because tuples are immutable in Python. Once a tuple is created, its elements cannot be modified. If you need a mutable collection, you can use a list instead.
+
