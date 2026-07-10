@@ -1,0 +1,36 @@
+student = ["Ahmed", "Yaman", "Zaid", "Omar"]
+student.sort()
+print(student)
+# to sort it from bigger to smaller or (A-Z)
+
+student = ["Ahmed", "Yaman", "Zaid", "Omar"]
+student.sort(reverse=True)
+print(student)
+# to sort it  reversely from smaller to bigger or (Z-A)
+
+student = ["Ahmed", "Yaman", "Zaid", "Omar"]
+student2 = ["Osama", "Husam", "Moath"]
+student.extend(student2)
+print(student)
+#to link (extend) 2lists together
+
+student = ["Ahmed", "Yaman", "Zaid", "Omar"]
+student.append("Osama")
+print(student)
+# to add a new name or value to the list
+
+student = ["Ahmed", "Yaman", "Zaid", "Omar"]
+student.insert(1, "Osama")
+print(student)
+# to switch the position of a name or value in the list
+
+student = ["Ahmed", "Yaman", "Zaid", "Omar"]
+student.remove("Ahmed")
+print(student)
+# to remove a name or value from the list
+
+student = ["Ahmed", "Yaman", "Zaid", "Omar"]
+student.clear()
+print(student)
+#to clear all the names or values from the list
+# Yaman Bani Fadel <3
