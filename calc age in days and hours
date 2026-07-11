@@ -1,0 +1,7 @@
+def calcdays(age):
+    return "Your age in days is: " +str(age*365)+" Days"
+print(calcdays(int(input("Enter your age: "))))
+
+def calchours(age):
+    return "Your age in hours is: " +str(age*365*24)+" Hours"
+print(calchours(int(input("Enter your age: "))))
