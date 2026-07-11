@@ -1,0 +1,4 @@
+def calc(num1, num2):
+   return num1+num2 #you can add anything wahtever string or int but it has to be before the return
+
+print(calc(10, 5)) 
