@@ -1,0 +1,5 @@
+def firstfunction(name,age):
+    print("My Name is: "+ name+"Your Age is: "+str(age)) # convert age to string output
+    # you must typing here not in the beginning of the line
+
+firstfunction("Yaman", 18) #calling the function
