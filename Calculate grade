@@ -1,0 +1,8 @@
+def calcgrade(num1,num2,num3):
+    return "Your grade is: "+str((num1+num2+num3)/3)
+
+num1 = int(input("PLease enter first numbr: "))
+num2 = int(input("Please enter second number: "))
+num3 = int(input("Please enter third number: "))
+
+print(calcgrade(num1,num2,num3))
