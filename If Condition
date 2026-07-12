@@ -1,0 +1,12 @@
+email = "x@gmail.com"
+password = 1234
+if email == "x@gmail.com" and password == 1234:
+    print("Welcome!")
+elif email == "x@gmail.com" and password != 1234:
+    print("Invalid Password!") 
+elif email != "x@gmail.com" and password == 1234:
+    print("Invalid email!")
+else: 
+    print("Invalid Email and Password!")
+            
+
