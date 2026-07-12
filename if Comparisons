@@ -1,0 +1,8 @@
+def names(ahmed, hasan, yaman):
+    if ahmed > hasan and ahmed > yaman:
+        return ahmed
+    elif hasan > ahmed and hasan > yaman:
+        return hasan
+    else:
+        return yaman
+print(names(80,90,91))    
