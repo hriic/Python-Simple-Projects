@@ -1,0 +1,17 @@
+num1 = float(input("Please enter number 1: "))
+operator = input("Please enter the operator: ")
+num2 = float(input("Please enter number 2: "))
+
+if operator == "+":
+    print(num1+num2)
+elif operator == "-":
+    print(num1-num2)
+elif operator == "*":
+    print(num1*num2)
+elif operator == "/":
+    print(num1/num2)
+elif operator == "^":
+    print(num1**num2)    
+else:
+    print("error")         
+      
