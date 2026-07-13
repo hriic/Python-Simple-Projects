@@ -1,0 +1,8 @@
+name = "yaman"
+age = 25
+country = "jordan"
+# print("my name is: "+name+" and my age is: "+str(age)+" and my country is: "+country)
+
+print("my name is: %s my age is: %s my country is: %s" %(name, age , country))
+# %s -----> (string) %d ------> (intigers) %f ------> (float)
+print("my age is %f" % age)
