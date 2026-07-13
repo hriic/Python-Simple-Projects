@@ -1,0 +1,14 @@
+info = {
+    "Name": "Yaman",
+    "Age": 18,
+    "Country": "Jordan"
+}
+
+for x in info:
+    if info[x] == "Jordan":
+        print(info[x], "i love jordan")
+    else: print(info[x])
+
+
+
+    
