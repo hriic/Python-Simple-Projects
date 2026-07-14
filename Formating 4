@@ -1,0 +1,6 @@
+a = 1
+b = 2
+c = 3
+print("the num are {a}{b}{c}") #here will not show the value of variables
+print(f"the num are {a} {b} {c}")
+print(f"the num are {a:d} {b:f} {c:f}")
