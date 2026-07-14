@@ -1,0 +1,5 @@
+a = 1
+b = 2
+c = 3
+print("the num is: {2}{0}{1}".format(a,b,c))
+print("the num is: {1:d} {0:.2f} {2:d}".format(a,b,c))
