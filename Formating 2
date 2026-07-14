@@ -1,0 +1,4 @@
+name = "yaman"
+age = 18
+print("my name is: {:s} my age is: {:.3f}".format(name , age))
+print("the price is {:,}".format(1000000))
