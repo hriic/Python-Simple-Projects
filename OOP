@@ -1,0 +1,17 @@
+class Car:
+    def __init__(self, color, price, model):
+        self.myColor = color
+        self.myPrice = price
+        self.myModel = model
+    def myCar(self):
+        if self.myModel >= 2018:
+            self.myPrice += 50
+            print(f"new model {self.myPrice}")   
+        else:
+            self.myPrice -= 20
+            print(f"new model {self.myPrice}")   
+
+BMW = Car("red", 80, 2018)
+FORD = Car("white", 70, 2015)
+BMW.myCar()
+        
